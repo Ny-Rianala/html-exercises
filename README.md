@@ -13,3 +13,6 @@ In this repo, we have created a series of HTML exercises.
 - [01: HTML syntax rules](01-rules/index.md)
 - [02: Tables](02-tables/index.md)
 - [03: Nested lists](03-nested-lists/index.md)
+- [04: Sectioning elements](04-sectioning-elements/index.md)
+- [05: All elements](05-all-elements/index.md)
+- [06: Images](06-images/index.md)
