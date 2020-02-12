@@ -10,9 +10,48 @@
   <body>
 
     <form action="https://script.google.com/macros/s/AKfycbx_k22UijbL8nV_HE_eFCqonZ5LtCmyZqLd_wvG3_lWoAdLGWI/exec" method="POST">
-
+        <p>
+          <label>
+            Contributor<br>
+          <input type="hidden" name="contributor" value="Kati">
+          </label>
+        </p>
+        <p>
+          <label>
+            Artist's name<br>
+          <input type="text" name="artist-name" value="Arnah" required>
+          </label>
+        </p>
+        <p>
+          <label>
+            Artist's ID<br>
+            <input type="text" name="artist-id" value="arnah" required>
+          </label>
+        </p>
+        <p>
+          <label>
+            Genre<br>
+          </label>
+            <select name="genre" id="genre-select">
+            <option value="electronic">Electronic</option>
+            <option value="dance">Dance</option>
+            <option value="tsapiky">Tsapiky</option>
+            </select>
+        </p>
+        <p>
+          <label>
+            Photo-URL<br>
+            <input type="url" name="photo-url" value="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DmhvA4Z101gA&psig=AOvVaw1S2s8OxsFHTD8oUUaxK3uS&ust=1581584557951000&source=images&cd=vfe&ved=2ahUKEwje1qvf08vnAhUF3BoKHYGIBvIQr4kDegUIARDQAQ"><br> 
+          </label>
+        </p>
+        <p>
+          <label>
+          Artist's biography<br>
+          <texteria name="biography">Sorry we couldn't find any information about this singer</texteria>
+          </label>
+        </p>
       <!--
-        The google sheet can be found at: https://docs.google.com/spreadsheets/d/1Vnkb5rE1kgXFMt2So3RwfvfLwayVtATt1o9NM-ry9UI/edit?usp=sharing
+       The google sheet can be found at: https://docs.google.com/spreadsheets/d/1Vnkb5rE1kgXFMt2So3RwfvfLwayVtATt1o9NM-ry9UI/edit?usp=sharing
         Create a field for each cell in the Google Sheet.
       -->
 
