@@ -18,7 +18,6 @@ You'll need to:
 ## The code you need to write
 
 Your blog should have the following:
-
 - An index page, `index.html` in the root of the repo.
   - This file will act as your homepage. So make it cheery, inviting, and have it list links to all the posts you write.
   - This file will also introduce you. Maybe it's a good idea to tell everyone your pen-name. 🤓
