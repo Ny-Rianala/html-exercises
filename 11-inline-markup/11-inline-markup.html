@@ -18,15 +18,14 @@
 
       <!-- In this example, the 'Wait!' needs stressing when vocalised -->
       <p>
-        <em>"Wait!"</em> shouted Jesse.
+        <q><em>Wait!</em></q> shouted Jesse.
       </p>
 
       <hr>
 
       <!-- It's a good idea to tell a computer how to read a datetime: -->
       <p>
-        The time is now 2pm, on Wednesay the 12th of February, 2020.<br>
-        Sorry, I don't really understand this part. 
+        The time is now<time datetime=2020-02-13T13:00:00+3:00>, 2pm, on Wednesday
       </p>
       
 
@@ -34,17 +33,7 @@
 
       <!-- What do 'H' and 'O' mean here? -->
     
-        The elements H and O, bond as H20, or water (as it is colloquaially known).<br>
-        <ul>
-          <li>
-            <dfn>H represents the elemental gas Hydrogen which contributes two atomics.</dfn><br>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <dfn>O indicates water.</dfn>
-          </li>
-        </ul>
+        The elements <abbr title="Hydrogen">H</abbr> and <abrr title="Oxygen">O</abbr>, bond as H20, or<i> water <i>(as it is colloquaially known).<br>
 
       <hr>
 
@@ -52,38 +41,38 @@
       <p>
         Editor's Notes:<br>
 
-        Please use CTRL+B to bold this word: <b>Critical</b><br>
-        Please use CTRL+I to italicise this word: <i>Doubtful</i><br>
+        Please use<kbd> CTRL </kbd> + <kbd>B </kbd>to bold this word: Critical<br>
+        Please use<kbd> CTRL </kbd> + <kbd>I </kbd>to italicise this word: <i>Doubtful</i><br>
 
         Please underline this word: <u>Thinking</u><br>
         Please put a line through this word: <s>Assuming</s><br>
 
         Please show that the word 'slow' was removed, and 'quick' added in its place in the following sentence:
-        "The <del>slow </del>fox jumped over the lazy dog."<ins>slow</ins>
+        "The <del>slow</del> <ins>quick</ins> fox jumped over the lazy dog."
       </p>
 
       <hr>
 
       <!-- We can do the same with samples of code, even maintaining the whitespace: -->
 
-      <pre>
-        "Woah! 'that' was unexpected!" exclaimed Keith.<br>
+        <q><em>Woah!</em><code>'that'</code> was unexpected! exclaimed Keith.</q><br>
         Curiously, Jesse looked at the output on Keith's screen and it said:<br>
-          Unexpected value for argument 'that'
-            - in function clickHandler, line 12
+        <pre>
+          Unexpected value for argument <code>'that'</code>
+            - in function <code>clickHandler</code>, line 12
             - called from function anonymous, line 34
-      </pre> 
+        </pre> 
 
       <hr>
 
       <!-- We can add helpful markup to highlight words -->
       <p>
-        Your search term: 'Helicopter' was found in the following documents:
+        Your search term:<mark> 'Helicopter'</mark> was found in the following documents:
       </p>
       <ul>
         <li>
           <a href="#bell-222">Bell 222</a>:<br>
-          The Model 222 is <mark>a helicopter</mark> made by the Bell Helicopter Corporation.
+          The Model 222 is <mark>a helicopter</mark> made by the Bell<mark> Helicopter</mark> Corporation.
         </li>
       </ul>
 
